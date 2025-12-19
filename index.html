@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Enroll Now</title>
+
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <style>
+        body {
+            background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+                        url(Las\ Pinas\ Facade.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #212529;
+        }
+
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.416); 
+            backdrop-filter: blur(8px); 
+            -webkit-backdrop-filter: blur(8px);
+            border-radius: 12px;
+            padding: 30px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .form-title {
+            color:darkturquoise;
+            font-weight:bold;
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark shadow">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images.jpg" alt="images" height="32" class="me-2">
+
+                <span class="fw-semibold">OBMC</span>
+            </a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    
+    <div class="container">
+        <div class="form-container shadow">
+
+            <div class="text-center mb-4">
+                <h1 class="form-title">OBMC Student Enrollment Form</h1>
+                <p class="text-muted">Fill out the form below to enroll for the upcoming school year.</p>
+            </div>
+
+            <div class="section-title">Student Information</div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">First Name</label>
+                    <input type="text" class="form-control" placeholder="LEBRON">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" class="form-control" placeholder="TAHAAD">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Birth Date</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Gender</label>
+                    <select class="form-control">
+                        <option>Select...</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Grade Level</label>
+                    <select class="form-control">
+                        <option>Select...</option>
+                        <option>Grade 7</option>
+                        <option>Grade 8</option>
+                        <option>Grade 9</option>
+                        <option>Grade 10</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section-title">Contact Details</div>
+            <div class="mb-3">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" placeholder="JAMES@email.com">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Contact Number</label>
+                <input type="text" class="form-control" placeholder="09xxxxxxxxx">
+            </div>
+
+            <div class="section-title">Other Information</div>
+            <div class="mb-3">
+                <label class="form-label">Mode of Learning</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="mode">
+                    <label class="form-check-label">Online</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="mode">
+                    <label class="form-check-label">Face-to-Face</label>
+                </div>
+            </div>
+
+            <div class="form-check mb-4">
+                <input class="form-check-input" type="checkbox">
+                <label class="form-check-label">
+                    I confirm that the information provided is true and complete.
+                </label>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-primary px-5">Submit Enrollment</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p class="mb-0">LEBRON IS THE GOAT</p>
+    </footer>
+
+</body>
+</html>
